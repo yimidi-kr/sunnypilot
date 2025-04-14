@@ -12,9 +12,9 @@ MAX_ACCEL_SPORT   = [2.00, 2.00, 1.98, 1.90, 1.30, 1.00, .72, .60, .48, .3]
 
 # Acceleration profile for minimum (braking) acceleration
 MIN_ACCEL_ECO     = [-1.0, -1.0, -1.0, -1.0, -1.0]
- MIN_ACCEL_NORMAL  = [-1.1, -1.1, -1.1, -1.1, -1.1]
- MIN_ACCEL_SPORT   = [-1.4, -1.4, -1.4, -1.4, -1.4]
- MIN_ACCEL_STOCK   = [-1.2, -1.2, -1.2, -1.2, -1.2]
+MIN_ACCEL_NORMAL  = [-1.1, -1.1, -1.1, -1.1, -1.1]
+MIN_ACCEL_SPORT   = [-1.4, -1.4, -1.4, -1.4, -1.4]
+MIN_ACCEL_STOCK   = [-1.2, -1.2, -1.2, -1.2, -1.2]
 
 # Speed breakpoints for interpolation
 MAX_ACCEL_BREAKPOINTS = [0., 1., 6., 8., 11., 16, 20., 25., 30., 55.]
