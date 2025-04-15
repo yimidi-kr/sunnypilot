@@ -206,7 +206,11 @@ class CarInterface(CarInterfaceBase):
       ret.steerActuatorDelay = 0.2
       ret.minSteerSpeed = 30 * CV.MPH_TO_MS
       CarInterfaceBase.configure_torque_tune(candidate, ret.lateralTuning)
-
+    
+    elif candidate == CAR.CADILLAC_CT6_2019:
+      ret.steerActuatorDelay = 0.2
+      CarInterfaceBase.configure_torque_tune(candidate, ret.lateralTuning)
+    
     elif candidate == CAR.CHEVROLET_VOLT_2019:
       ret.steerActuatorDelay = 0.2
       CarInterfaceBase.configure_torque_tune(candidate, ret.lateralTuning)
